@@ -1,0 +1,135 @@
+{
+  "statistics": {
+    "totalUsers": 45847,
+    "totalRevenue": 892540,
+    "totalOrders": 3247,
+    "conversionRate": 3.8,
+    "usersTrend": "+12.5%",
+    "revenueTrend": "+8.2%",
+    "ordersTrend": "+15.3%",
+    "conversionTrend": "+2.1%"
+  },
+  "user": {
+    "name": "Alexandra Smith",
+    "role": "Analytics Manager",
+    "email": "alexandra.smith@techcorp.com",
+    "avatar": "./assets/compiled/jpg/1.jpg",
+    "joinDate": "2022-03-15",
+    "department": "Business Intelligence"
+  },
+  "recentActivities": [
+    {
+      "id": 1,
+      "user": "Sarah Johnson",
+      "activity": "Made a purchase",
+      "product": "Premium Analytics Package",
+      "amount": "$249.99",
+      "time": "2 minutes ago",
+      "avatar": "./assets/compiled/jpg/2.jpg",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "user": "Mike Chen",
+      "activity": "Subscribed to Pro",
+      "product": "Dashboard Pro Monthly",
+      "amount": "$29.99",
+      "time": "15 minutes ago",
+      "avatar": "./assets/compiled/jpg/3.jpg",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "user": "Emma Davis",
+      "activity": "Downloaded report",
+      "product": "Q4 Analytics Report",
+      "amount": "Free",
+      "time": "1 hour ago",
+      "avatar": "./assets/compiled/jpg/4.jpg",
+      "status": "completed"
+    },
+    {
+      "id": 4,
+      "user": "James Wilson",
+      "activity": "Upgraded account",
+      "product": "Enterprise Plan",
+      "amount": "$99.99",
+      "time": "2 hours ago",
+      "avatar": "./assets/compiled/jpg/5.jpg",
+      "status": "pending"
+    }
+  ],
+  "topProducts": [
+    {
+      "id": 1,
+      "name": "Premium Analytics",
+      "description": "Advanced business intelligence toolkit",
+      "sales": 234,
+      "revenue": 23400,
+      "growth": 15.2,
+      "category": "Software",
+      "price": 99.99
+    },
+    {
+      "id": 2,
+      "name": "Dashboard Pro",
+      "description": "Professional dashboard solution",
+      "sales": 189,
+      "revenue": 18900,
+      "growth": 12.8,
+      "category": "Software",
+      "price": 49.99
+    },
+    {
+      "id": 3,
+      "name": "Data Insights",
+      "description": "AI-powered data analysis tool",
+      "sales": 156,
+      "revenue": 15600,
+      "growth": 8.5,
+      "category": "AI Tools",
+      "price": 79.99
+    }
+  ],
+  "systemStatus": [
+    {
+      "id": 1,
+      "service": "API Services",
+      "status": "operational",
+      "uptime": "99.9%",
+      "responseTime": "245ms",
+      "lastChecked": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "service": "Database",
+      "status": "operational",
+      "uptime": "100%",
+      "responseTime": "12ms",
+      "lastChecked": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "service": "CDN",
+      "status": "maintenance",
+      "uptime": "98.7%",
+      "responseTime": "89ms",
+      "lastChecked": "2024-01-15T10:25:00Z"
+    }
+  ],
+  "chartData": {
+    "revenue": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "data": [65000, 72000, 68000, 85000, 92000, 88000, 95000, 102000, 98000, 105000, 112000, 108000]
+    },
+    "performance": {
+      "labels": ["CPU Usage", "Memory Usage", "Storage", "Network"],
+      "data": [78, 65, 82, 91]
+    }
+  },
+  "meta": {
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "version": "2.1.0",
+    "refreshInterval": 300000
+  }
+}
