@@ -1,0 +1,31 @@
+{
+  "kpis": {
+    "profileViews": "145.9K",
+    "followers": "210.5K",
+    "projectCompletionPercent": 85,
+    "activeTeamMembers": "6 Members"
+  },
+  "monthlyGoal": {
+    "targetPercent": 85,
+    "statusMessage": "Excellent progress! You have exceeded Q4 projections."
+  },
+  "geoVisits": [
+    {"region": "Europe", "visitors": "980", "color": "text-primary"},
+    {"region": "America", "visitors": "420", "color": "text-success"},
+    {"region": "Asia", "visitors": "1250", "color": "text-danger"}
+  ],
+  "recentMessages": [
+    {"name": "Alice Johnson", "message": "The V2 component library is ready for review.", "time": "2 minutes ago", "img": "https://cdn.jsdelivr.net/gh/zuramai/mazer@docs/demo/assets/compiled/jpg/4.jpg"},
+    {"name": "Bob K. Sharma", "message": "Updated DB schema for performance boost.", "time": "15 minutes ago", "img": "https://cdn.jsdelivr.net/gh/zuramai/mazer@docs/demo/assets/compiled/jpg/5.jpg"},
+    {"name": "Jane Coder", "message": "New feature branch merged to production.", "time": "45 minutes ago", "img": "https://cdn.jsdelivr.net/gh/zuramai/mazer@docs/demo/assets/compiled/jpg/6.jpg"}
+  ],
+  "revenueChart": {
+    "series": [
+      {
+        "name": "Revenue 2024",
+        "data": [45000, 32000, 55000, 60000, 48000, 70000, 85000]
+      }
+    ],
+    "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"]
+  }
+}

@@ -16,7 +16,7 @@ $dark-mode: false !default;
 @import "~bootstrap/scss/functions";
 
 $theme-colors-light: (
-  'primary': #ebf3ff,
+  'primary': #8A2BE2,
   'secondary': #E6EAEE,
   'success': #D2FFE8 ,
   'danger': #FFDEDE,
@@ -168,8 +168,12 @@ $dark:          $body-bg;
 
 
 // Mazer Variables
+// Change primary color and font family
+$primary: #2c3e50;
+$font-family-base: 'Inter', sans-serif;
 
-$sidebar-bg: #fff !default;
+// Customize sidebar background
+$sidebar-bg: #23272b;
 $sidebar-link-color: #25396f !default;
 $sidebar-link-hover-bg:         rgb(240, 241, 245) !default;
 $sidebar-link-hover-color:      #25396f !default;
